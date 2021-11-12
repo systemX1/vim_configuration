@@ -1,5 +1,8 @@
+execute pathogen#infect()
 syntax enable
+filetype plugin indent on
 set background=light
+let g:solarized_termcolors=256
 colorscheme solarized
 set visualbell
 set noerrorbells
@@ -31,5 +34,4 @@ set autoread
 set listchars=tab:»·,trail:·
 set list
 set wildmenu
-set wildmode=longest:list,full
-set number
+
